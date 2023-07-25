@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('pics/bg1.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+.main {
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0px;
+    /* height: 1000px; */
+    background-color: rgb(255, 255, 255);
+}
+
+.top_heading {
+    color: maroon;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+
+}
+
+.form_main {
+    /* border: 2px solid blue; */
+    /* border-radius: 15px; */
+    padding: 10px;
+    padding-top: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    /* background: url('pics/bg5.jpg'); */
+
+}
+
+.form_img_main {
+    /* border: 2px solid purple; */
+    /* border-radius: 15px; */
+    margin-top: 10px;
+    padding: 10px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    /* ========================================= */
+    background: url('pics/bg5.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.input_div {
+    border: 2px solid black;
+    border-radius: 2px;
+
+
+}
+
+.input_field {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    width: 95%;
+}
+
+.login {
+    border: 2px solid cyan;
+    border-radius: 10px;
+    text-align: center;
+    color: cyan;
+    padding: 5px 20px;
+    background-color: blue;
+
+}
+
+.login:hover {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    color: yellow;
+    padding: 5px 20px;
+    background-color: darkgreen;
+
+}
+
+.create_btn {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color: red;
+
+}
+
+.create_btn:hover {
+    border: 2px solid magenta;
+    border-radius: 10px;
+    text-align: center;
+    color: yellow;
+    padding: 5px 20px;
+    background-color: maroon;
+
+}
+
+.forget_btn {
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+    width: fit-content;
+    padding: 5px 0px;
+    /* background-color: red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}

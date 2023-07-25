@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bg1.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+
+
+
+/* ========================   NAV BAR Start   =========================  */
+
+
+.nav_out_main {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+}
+
+/* .nav_left_main {
+    border: 2px solid green;
+    height: 140px;
+    text-align: right;
+
+} */
+
+.nav_right_main {
+    /* border: 2px solid blue; */
+    height: fit-content;
+}
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    border: 1px solid brown;
+    border-radius: 4px;
+    color: brown;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    /* transition: all 3s; */
+}
+
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    border-radius: 30px;
+    height: fit-content;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    /* border-radius: 5px; */
+    color: white;
+    background-color: purple;
+}
+
+.nav_bar_logo_bar {
+    /* margin-top: 15px; */
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 20px;
+    margin-left: 140px;
+    /* border: 2px solid green; */
+    height: fit-content;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+    text-shadow: 2px 2px 5px yellow;
+
+}
+
+.title:hover {
+
+
+
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+    text-shadow: 2px 2px 5px white;
+
+
+}
+
+.home-btn {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color: purple;
+    text-align: center;
+    background-color: white;
+
+}
+
+.home-btn:hover {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+    /* box-shadow: 2px 2px 5px yellow; */
+}
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+
+    .list_main {
+        margin-top: 20px;
+        margin-left: 0px;
+        /* border: 2px solid green; */
+        height: fit-content;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Fasthand', cursive;
+        text-shadow: 2px 2px 5px yellow;
+    }
+
+
+}

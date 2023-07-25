@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* ================================================================  */
+
+.mar_htm {
+    border-radius: 20px;
+    background-color: rgba(116, 1, 116, 0.5);
+    height: 50px;
+}
+
+.mar_text {
+
+    color: yellow;
+    direction: rtl;
+    font-family: Alvi;
+    font-size: 30px;
+}
+
+/* ================================================================  */
+.main {
+    /* border: 2px solid red; */
+    height: 500px;
+}
+
+.main_inner {
+
+    /* border: 2px solid purple; */
+    height: 490px;
+
+}
+
+.box1_out {
+    /* border: 2px solid red; */
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.box1 {
+    border: 2px solid red;
+    background-color: purple;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+
+
+    background: url('images/home/m1.png');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.main-btn {
+
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: purple;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-btn:hover {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================  */
+.footer_main {
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: fit-content;
+}
+
+.column_1 {
+    border-left: 2px solid white;
+    height: 400px;
+}
+
+.footer_text {
+    color: white;
+    font-size: 20px;
+}
+
+.footer_text:hover {
+    color: greenyellow;
+    font-size: 22px;
+    transition: all 0.7s;
+
+}
+
+/* ------------------------------------------------  */
+.footer_bottom {
+    /* border: 2px solid blue; */
+    color: white;
+    background-color: black;
+    text-align: center;
+}

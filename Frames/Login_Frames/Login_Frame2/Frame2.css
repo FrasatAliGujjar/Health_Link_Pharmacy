@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('pics/bg7.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+.main {
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0px;
+    /* height: 1000px; */
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.top_heading {
+    color: rgba(21, 248, 248, 0.603);
+    text-align: center;
+    font-size: 40px;
+    /* font-family: 'Fasthand', cursive; */
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.form_main {
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 450px;
+    width: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    /* background: url('pics/bg5.jpg'); */
+
+}
+
+/* .form_img_main { */
+/* border: 2px solid purple; */
+/* border-radius: 15px; */
+/* margin-top: 10px;
+    padding: 10px;
+    height: 400px;
+    background-color: rgb(255, 255, 255); */
+/* ========================================= */
+/* background: url('pics/bg5.jpg'); */
+/* background-position: center; */
+/* background-size: 100% 100%; */
+/* background-repeat: no-repeat; */
+/* } */
+
+
+.fo_icon {
+    color: white;
+}
+
+.input_div {
+    border: 1px solid white;
+    border-radius: 2px;
+
+
+}
+
+.input_field {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid white;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.login {
+    /* border: 1px solid cyan; */
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color: rgba(50, 46, 46, 0.544);
+
+}
+
+.login:hover {
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color: rgba(50, 46, 46, 0.9);
+
+}
+
+.create_btn {
+    /* border: 1px solid cyan; */
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color:  rgba(50, 46, 46, 0.544);
+
+}
+
+.create_btn:hover {
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    background-color:  rgba(50, 46, 46, 0.9);
+
+}
+
+.forget_btn {
+    /* border: 2px solid yellow; */
+    width: fit-content;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    padding: 5px 0px;
+    /* background-color: red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}
