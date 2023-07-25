@@ -1,2 +1,0 @@
-# Health_Link_Pharmacy
-Health_Link_Pharmacy

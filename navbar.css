@@ -167,6 +167,13 @@ body {
         /* border: 2px solid green; */
         height: fit-content;
     }
+    .title {
+        color: white;
+        font-size: 16px;
+        font-family: 'Fasthand', cursive;
+        text-shadow: 2px 2px 5px yellow;
+    }
+
 
 }
 
@@ -179,7 +186,7 @@ body {
 @media only screen and (max-width: 412px) {
     .title {
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Fasthand', cursive;
         text-shadow: 2px 2px 5px yellow;
     }
