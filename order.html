@@ -8,6 +8,7 @@
 
     <!-- Css file link  -->
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="order.css">
     <link rel="stylesheet" href="navbar.css">
 
     <!-- Fav Icon  -->
@@ -57,7 +58,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 list_main">
                         <li class="nav-item" id="nav-btn1">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" aria-current="page" href="index.html">
                                 <p title="Home" class="home-btn">
                                     <i class="fa-solid fa-home"></i>
                                 </p>
@@ -122,71 +123,43 @@
             <div class="col-12">
                 <!-- -------------------------  -->
 
-                <div class="container main">
+                <div class="container form_main">
                     <div class="row">
-                        <div class="col-lg-4 col-md-12 col-sm-12 main_inner">
+                        <div class="col-lg-12 col-md-12 col-sm-12 main_inner">
                             <!-- -------------------------  -->
-                            <div class="container-fluid mt-5">
-                                <div class="row">
-                                    <div class="col-12 box1_out">
-                                        <div class="box1">
-                                            <img src="images/home/c1.png"
-                                                style="width: 100%;height: 100%; border-radius: 50%;">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 box1_out">
-                                        <a href="#t" style="text-decoration: none;color: white;">
-                                            <p class="main-btn">Timing</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- -------------------------  -->
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 main_inner">
-                            <!-- -------------------------  -->
-                            <div class="container-fluid mt-5">
-                                <div class="row">
-                                    <div class="col-12 box1_out">
-                                        <div class="box1">
-                                            <img src="images/home/m1.png"
-                                                style="width: 100%;height: 100%; border-radius: 50%;">
+                            <p class="h1" style="text-align: center;color: white;">Online Order</p>
+                            <br><br>
+                            <form>
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 box1_out">
-                                        <a href="order.html" style="text-decoration: none;color: white;">
-                                            <p class="main-btn">Online Order</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- -------------------------  -->
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 main_inner">
-                            <!-- -------------------------  -->
-                            <div class="container-fluid mt-5">
-                                <div class="row">
-                                    <div class="col-12 box1_out">
-                                        <div class="box1">
-                                            <img src="images/home/p2.png"
-                                                style="width: 100%;height: 100%; border-radius: 50%;">
+                                <label for="Name">Name :</label>
+                                <br>
+                                <input id="name" class="inputf" type="text">
+                                <br>
+                                <br>
+                                <label for="Name">Age :</label>
+                                <br>
+                                <input id="age" class="inputf" type="text">
+                                <br>
+                                <br>
+                                <label for="Name">Medicine Name :</label>
+                                <br>
+                                <input id="mdn" class="inputf" type="text">
+                                <br>
+                                <br>
+                                <label for="Name">Number of Pills :</label>
+                                <br>
+                                <input id="no" class="inputf" type="text">
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 box1_out">
-                                        <a href="#c" style="text-decoration: none;color: white;">
-                                            <p class="main-btn">Contact Us</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+
+                            </form>
+                            <br><br>
+                            <p onclick="order()" class="h5"
+                                style="border: 2px solid white;box-shadow: 2px 2px 5px plum;  padding: 5px 30px; width: fit-content; background-color: green; color: white;border-radius: 20px;margin: auto;">
+                                Order
+                            </p>
+                            <br><br>
+
+
                             <!-- -------------------------  -->
                         </div>
                     </div>
@@ -225,6 +198,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
     <br>
     <br>
     <br>
@@ -295,49 +278,6 @@
     <br>
     <br>
     <br>
-
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <!-- ====================== -->
-
-
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/pics/c2.jpeg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/pics/c4.jpeg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/pics/c3.jpeg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-
-
-
-                <!-- ====================== -->
-            </div>
-        </div>
-    </div>
-
-
-
-
 
 
 
@@ -434,6 +374,7 @@
                     style="text-decoration: none; color: white;">
                     <p class="footer_text">
                         Iqbal Nagar Adda Bi Paas
+
                     </p>
                 </a>
 
@@ -460,7 +401,6 @@
             </div>
         </div>
     </div>
-
 
 
 

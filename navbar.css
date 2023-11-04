@@ -1,27 +1,17 @@
-@font-face {
-    font-family: Bulletto;
-    src: url(fonts/Bulletto.ttf);
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bg1.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-@font-face {
-    font-family: Regista;
-    src: url(fonts/Regista.ttf);
-}
+/* =================================================  */
 
-@font-face {
-    font-family: Regista_i;
-    src: url(fonts/Regista_i.ttf);
-}
 
-@font-face {
-    font-family: Rockybilly;
-    src: url(fonts/Rockybilly.ttf);
-}
 
-@font-face {
-    font-family: Alvi;
-    src: url(fonts/Alvi.ttf);
-}
 
 /* ========================   NAV BAR Start   =========================  */
 
@@ -73,9 +63,9 @@
 .nav_bar_main_container {
 
     /* border: 2px solid white; */
-    border-radius: 0px;
+    /* border-radius: 5px; */
     color: white;
-    background-color: blue;
+    background-color: purple;
 }
 
 .nav_bar_logo_bar {
@@ -94,7 +84,7 @@
 
 .list_main {
     margin-top: 20px;
-    margin-left: 15x;
+    margin-left: 140px;
     /* border: 2px solid green; */
     height: fit-content;
 }
@@ -108,37 +98,43 @@
 /* -------------------------------------  */
 .title {
     color: white;
-    font-size: 37px;
-    font-family: 'Agdasima', sans-serif;
-    text-shadow: 5px 5px 5px wheat;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+    text-shadow: 2px 2px 5px yellow;
 
 }
 
 .title:hover {
-    color: white;
-    font-size: 37px;
-    text-shadow: 5px 5px 5px cyan;
-    font-family: 'Agdasima', sans-serif;
+
+
+
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+    text-shadow: 2px 2px 5px white;
+
+
 }
 
 .home-btn {
-
     border: 2px solid white;
-    border-radius: 20px;
-    padding: 5px 10px;
-    width: 130px;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color: purple;
     text-align: center;
-    color: white;
+    background-color: white;
+
 }
 
 .home-btn:hover {
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 5px 10px;
-    width: 130px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px 9px;
+    color: white;
+    background-color: black;
     text-align: center;
-    background-color: white;
-    color: blue;
+
+    /* box-shadow: 2px 2px 5px yellow; */
 }
 
 /* ========================   NAV BAR END   =========================  */
@@ -165,69 +161,35 @@
 
 @media only screen and (max-width: 992px) {
 
-    .nav_left_main {
-        height: 1px;
+    .list_main {
+        margin-top: 20px;
+        margin-left: 0px;
+        /* border: 2px solid green; */
+        height: fit-content;
     }
-
-    .nav_bar_main_container {
-
-        border-bottom: 2px solid white;
-        /* border-radius: 10px; */
+    .title {
         color: white;
-        background-color: blue;
+        font-size: 16px;
+        font-family: 'Fasthand', cursive;
+        text-shadow: 2px 2px 5px yellow;
     }
+
+
 }
 
 @media only screen and (max-width: 768px) {}
 
-@media only screen and (max-width: 535px) {
-    .title {
-        color: white;
-        font-size: 20px;
-        font-family: 'Agdasima', sans-serif;
-        text-shadow: 5px 5px 5px wheat;
+@media only screen and (max-width: 535px) {}
 
-    }
-
-    .title:hover {
-        color: white;
-        font-size: 20px;
-        text-shadow: 5px 5px 5px cyan;
-        font-family: 'Agdasima', sans-serif;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .title {
-        color: white;
-        font-size: 20px;
-        font-family: 'Agdasima', sans-serif;
-        text-shadow: 5px 5px 5px wheat;
-
-    }
-
-    .title:hover {
-        color: white;
-        font-size: 20px;
-        text-shadow: 5px 5px 5px cyan;
-        font-family: 'Agdasima', sans-serif;
-    }
-}
+@media only screen and (max-width: 480px) {}
 
 @media only screen and (max-width: 412px) {
-
     .title {
         color: white;
-        font-size: 20px;
-        font-family: 'Agdasima', sans-serif;
-        text-shadow: 5px 5px 5px wheat;
-
+        font-size: 16px;
+        font-family: 'Fasthand', cursive;
+        text-shadow: 2px 2px 5px yellow;
     }
 
-    .title:hover {
-        color: white;
-        font-size: 20px;
-        text-shadow: 5px 5px 5px cyan;
-        font-family: 'Agdasima', sans-serif;
-    }
+
 }
