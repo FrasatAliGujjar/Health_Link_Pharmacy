@@ -1,17 +1,27 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    background: url('images/bg1.jpg');
-    background-position: fixed;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
 }
 
-/* =================================================  */
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
 
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
 
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
 
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
 
 /* ========================   NAV BAR Start   =========================  */
 
@@ -63,9 +73,9 @@ body {
 .nav_bar_main_container {
 
     /* border: 2px solid white; */
-    /* border-radius: 5px; */
+    border-radius: 0px;
     color: white;
-    background-color: purple;
+    background-color: blue;
 }
 
 .nav_bar_logo_bar {
@@ -84,7 +94,7 @@ body {
 
 .list_main {
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: 15x;
     /* border: 2px solid green; */
     height: fit-content;
 }
@@ -98,43 +108,37 @@ body {
 /* -------------------------------------  */
 .title {
     color: white;
-    font-size: 30px;
-    font-family: 'Fasthand', cursive;
-    text-shadow: 2px 2px 5px yellow;
+    font-size: 37px;
+    font-family: 'Agdasima', sans-serif;
+    text-shadow: 5px 5px 5px wheat;
 
 }
 
 .title:hover {
-
-
-
-    color: yellow;
-    font-size: 30px;
-    font-family: 'Fasthand', cursive;
-    text-shadow: 2px 2px 5px white;
-
-
+    color: white;
+    font-size: 37px;
+    text-shadow: 5px 5px 5px cyan;
+    font-family: 'Agdasima', sans-serif;
 }
 
 .home-btn {
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 5px 9px;
-    color: purple;
-    text-align: center;
-    background-color: white;
 
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+    color: white;
 }
 
 .home-btn:hover {
-    border: 2px solid black;
-    border-radius: 50%;
-    padding: 5px 9px;
-    color: white;
-    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 130px;
     text-align: center;
-
-    /* box-shadow: 2px 2px 5px yellow; */
+    background-color: white;
+    color: blue;
 }
 
 /* ========================   NAV BAR END   =========================  */
@@ -161,35 +165,69 @@ body {
 
 @media only screen and (max-width: 992px) {
 
-    .list_main {
-        margin-top: 20px;
-        margin-left: 0px;
-        /* border: 2px solid green; */
-        height: fit-content;
+    .nav_left_main {
+        height: 1px;
     }
-    .title {
+
+    .nav_bar_main_container {
+
+        border-bottom: 2px solid white;
+        /* border-radius: 10px; */
         color: white;
-        font-size: 16px;
-        font-family: 'Fasthand', cursive;
-        text-shadow: 2px 2px 5px yellow;
+        background-color: blue;
     }
-
-
 }
 
 @media only screen and (max-width: 768px) {}
 
-@media only screen and (max-width: 535px) {}
-
-@media only screen and (max-width: 480px) {}
-
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 535px) {
     .title {
         color: white;
-        font-size: 16px;
-        font-family: 'Fasthand', cursive;
-        text-shadow: 2px 2px 5px yellow;
+        font-size: 20px;
+        font-family: 'Agdasima', sans-serif;
+        text-shadow: 5px 5px 5px wheat;
+
     }
 
+    .title:hover {
+        color: white;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px cyan;
+        font-family: 'Agdasima', sans-serif;
+    }
+}
 
+@media only screen and (max-width: 480px) {
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Agdasima', sans-serif;
+        text-shadow: 5px 5px 5px wheat;
+
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px cyan;
+        font-family: 'Agdasima', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Agdasima', sans-serif;
+        text-shadow: 5px 5px 5px wheat;
+
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px cyan;
+        font-family: 'Agdasima', sans-serif;
+    }
 }

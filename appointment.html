@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="appointment.css">
     <link rel="stylesheet" href="timing.css">
     <link rel="stylesheet" href="Contact_us.css">
     <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="appointment.css">
 
     <!-- Fav Icon  -->
     <link rel="Icon" href="images/fav.png">
@@ -85,7 +85,7 @@
                         </li>
                         <li class="nav-item" id="nav-btn">
                             <a class="nav-link" href="Contact_us.html">
-                                <p class="home-btn">Contact us</p>
+                                <p class="home-btn">Contact_us</p>
                             </a>
                         </li>
                         <li class="nav-item" id="nav-btn">
@@ -107,57 +107,121 @@
             <div class="col-12">
                 <!-- ------------------------------------------ -->
 
-                <div class="container main_top">
+                <div class="container form_main">
+
+
                     <div class="row">
-                        <div class="col-8 main_top_box1">
 
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 home_wel_heading_1"></div>
-                                    <div class="col-12 home_wel_heading_1">Welcome to</div>
-                                    <div class="col-12 home_wel_heading_2">Alhamd Clinic</div>
-                                    <div class="col-12">
-                                        <div class="container">
-                                            <div class="row" style="justify-content: space-around;">
+                        <div class="col-12 form_heading">
+                            Please fill this Appointment Request Form
+                        </div>
 
-                                                <div class="col-lg-5 col-md-12 col-sm-12  mt-5">
-                                                    <a href="services.html" style="text-decoration: none; color: blue;">
-                                                        <p class="home_top_btn">
-                                                            <i class="home-icon fa-solid fa-stethoscope"></i>
-                                                            Services
-                                                        </p>
-                                                    </a>
+                    </div>
+
+
+
+                    <div class="row" style="height: 400px;">
+                        <div class="col-12">
+                            <form>
+                                <div class="container form_box">
+                                    <div class="row">
+
+                                        <!-- left side  -->
+                                        <div class="col-lg-6 col-md-12 col-sm-12 left_side">
+                                            <div class="container">
+                                                <!-- row 1 -->
+                                                <div class="row">
+                                                    <div class="col-12 input_title">
+                                                        <label>Name :</label>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <input type="text" class="input_field" id="name">
+                                                    </div>
                                                 </div>
-                                                &nbsp;
-                                                <div class="col-lg-5 col-md-12 col-sm-12 mt-5">
-                                                    <a href="appointment.html"
-                                                        style="text-decoration: none; color: blue;">
-                                                        <p class="home_top_btn">
-                                                            <i class="fa-solid fa-handshake"></i>
-                                                            Appointment
-                                                        </p>
-                                                    </a>
+                                                <br><br>
+                                                <!-- row 2 -->
+                                                <div class="row">
+                                                    <div class="col-12 input_title">
+                                                        <label>Gender :</label>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <input type="text" class="input_field" id="gender">
+                                                    </div>
                                                 </div>
 
+
+                                                <!-- -------------  -->
                                             </div>
+
                                         </div>
+
+                                        <!-- right side  -->
+                                        <div class="col-lg-6 col-md-12 col-sm-12 right_side">
+
+                                            <!-- row 1 -->
+                                            <div class="row">
+                                                <div class="col-12 input_title">
+                                                    <label>Health Problem :</label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <input type="text" class="input_field" id="problem">
+                                                </div>
+                                            </div>
+                                            <br><br>
+                                            <!-- row 2 -->
+                                            <div class="row">
+
+                                                <div class="col-12 input_title">
+                                                    <label>
+                                                        <i class="fa-brands fa-whatsapp"></i>
+                                                        Whatsapp Number :</label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <input type="text" class="input_field" id="wa">
+                                                </div>
+                                            </div>
+
+
+                                            <!-- -------------  -->
+                                        </div>
+
                                     </div>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div class="col-2 main_top_box2">
-
-                        </div>
-                        <div class="col-2 main_top_box3">
 
                         </div>
                     </div>
+                    <br>
+                    <!-- button  -->
+                    <div class="row">
+                        <div class="col-12 btn-box">
+
+
+                            <span class="wa-btn" type="button" onclick="whatsapp()">
+                                Send Request to Dr. Fahad&nbsp; <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <!-- button  -->
+                    <div class="row">
+                        <div class="col-12 btn-box">
+
+
+                            <span class="wa-btn" type="button" onclick="whatsapp2()">
+                                Send Request to Dr. Sarmad &nbsp; <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+
+
+                        </div>
+                    </div>
+
+                    </form>
+
                 </div>
-
-
-
-
 
 
                 <!-- ------------------------------------------ -->
